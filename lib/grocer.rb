@@ -1,6 +1,12 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
+<<<<<<< HEAD
+=======
+  # Implement me first!
+  #
+  # Consult README for inputs and outputs
+>>>>>>> ee2370f3110900bb7c4f79d79bdda518510cd86c
   
   result = nil
   
@@ -11,7 +17,11 @@ def find_item_by_name_in_collection(name, collection)
   end 
   
   return result
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> ee2370f3110900bb7c4f79d79bdda518510cd86c
 end
 
 def consolidate_cart(cart)
@@ -20,6 +30,11 @@ def consolidate_cart(cart)
 
   simple_cart = []
   
+<<<<<<< HEAD
+=======
+  
+  
+>>>>>>> ee2370f3110900bb7c4f79d79bdda518510cd86c
   cart.each do |listing|
     
     if !simple_cart.flatten.include?(listing[:name])
@@ -32,7 +47,13 @@ def consolidate_cart(cart)
          e[:count] += 1
       end 
     end
+<<<<<<< HEAD
   end
+=======
+    
+  end
+
+>>>>>>> ee2370f3110900bb7c4f79d79bdda518510cd86c
   
   simple_cart
 
